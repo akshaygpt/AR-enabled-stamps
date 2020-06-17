@@ -178,7 +178,7 @@ function main(){
 
   JEEFACEFILTERAPI.init({
     canvasId: 'jeeFaceFilterCanvas',
-    NNCpath: '../../../dist/', // root of NNC.json file
+    NNCpath: './', // root of NNC.json file
     animateDelay: 2, // let small delay to avoid DOM freeze
     callbackReady: function(errCode, spec){
       if (errCode){
